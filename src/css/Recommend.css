@@ -1,0 +1,62 @@
+.rec-nav{
+	width: 100%;
+	height: 0.68rem;
+	background: #fff;
+} 
+.rec-nav ul{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	padding-top: 0.2rem;
+	box-sizing: border-box;
+}
+.rec-nav ul li{
+	display: flex;
+	flex-direction: column;
+}
+.icon-qiahaoxinxichaxun{
+	color: green;
+}
+.icon-zuanshi{
+	color: #ffde02;
+}
+.icon-miaosha{
+	color:#ff6d02
+}
+.icon-chakanwuliu{
+	color:#027fff
+}
+.goods{
+	width: 100%;
+	height: 100%;
+}
+.goods-one{
+	width: 100%;
+	height: 2.25rem;
+}
+.tag{
+	width: 0.54rem;
+	height: 0.14rem;
+	position: absolute;
+	left: 0;
+	top: 0.05rem;
+}
+.info{
+	width: 100%;
+	height:0.52rem;
+	box-sizing: border-box;
+	padding: 0.09rem 0.12rem;
+}
+.info>div:nth-child(1){
+	display: flex;
+	justify-content: space-between;
+}
+.info>div:nth-child(2){
+	display: flex;
+	font-size: 10px;
+	color: rgba(0,0,0,.54);
+	line-height: 0.2rem;
+}
+.info-price{
+	color: red;
+}

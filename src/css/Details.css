@@ -1,0 +1,70 @@
+/*商品信息*/
+.goods-info{
+	width: 100%;
+	padding-bottom: 52px;
+	background: #eee;
+}
+.goods-info-one{
+	width: 100%;
+	height: 1.02rem;
+	box-sizing: border-box;
+	padding:9px 8px 0 8px;
+	background: #fff;
+}
+.goods-info-one>div:nth-child(1){
+	font-size: 18px;
+}
+.goods-info-one>div:nth-child(2){
+	font-size: 12px;
+	color: rgba(0,0,0,.54);
+	line-height: 0.12rem;
+}
+.goods-info-one>div:nth-child(3){
+	margin-top: 0.1rem;
+}
+.goods-info-one>div:nth-child(3) b{
+	font-size: 18px;
+	color: #ff6700;
+}
+.goods-info-one>div:nth-child(3) del{
+	font-size: 10px;
+	color: rgba(0,0,0,.54);
+	margin-left: 0.1rem;
+}
+.goods-info-one>div:nth-child(3) span{
+	display: inline-block;
+	font-size: 12px;
+	color: #fff;
+	background: #ff6700;
+	padding:0. 02rem;
+	margin-left: 0.1rem;
+}
+/*bottom*/
+.det-bottom{
+	width: 100%;
+	height: 52px;
+	background: #fff;
+	text-align: center;
+	color: #3c3c3c;
+	position: fixed;
+	z-index: 999;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	padding-left: 0.1rem;
+}
+.det-bottom a{
+	display: block;
+	display: flex;
+	flex-direction: column;
+}
+.add-cart{
+	width: 50%;
+	height: 52px;
+	line-height: 52px;
+	background:#ff6700;
+	color: #fff;
+}
